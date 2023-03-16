@@ -1,2 +1,5 @@
-# HSI-SS
-HSI-SS: Python deep learning approaches for Semantic Segmentation in Hyperspectral Images and Traditional Images
+# HSI-SS: Python Deep Learning API for Semantic Segmentation in Hyperspectral Images and Traditional Images
+
+## Information
+HSI-SS is a Python API based on deep learning approach that provides state-of-the-art algorithms for semantic segmentation in hyperspectral images, while also supporting traditional images. The package includes a models such as UNet, and PSPNet that can be trained and tested on your own data. The package also includes data loaders, preprocessing utilities, and evaluation metrics to streamline the training and testing process. HSI-SS is designed for data scientists, researchers, and practitioners working in the field of hyperspectral imaging, remote sensing, and computer vision. With HSI-SS, you can quickly and easily develop accurate semantic segmentation models for hyperspectral and traditional images, and use them to solve a variety of real-world problems.
+HSI-SS is built on top of the popular image-segmentation-keras repository, which provides a strong foundation for developing and testing image segmentation models in Keras. By leveraging the pre-built models, utilities, and codebase of image-segmentation-keras, HSI-SS is able to deliver a powerful and easy-to-use package for semantic segmentation in hyperspectral and traditional images
