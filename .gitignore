@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+dataset/eval/annotations/0016E5_07959.png
+.DS_Store
+.idea/
+dataset/
