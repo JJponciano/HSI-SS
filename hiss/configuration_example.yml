@@ -1,0 +1,23 @@
+dataset:
+  # required for training. It can only be empty if the model.weights is defined and exists.
+  training : "../dataset/training/data"
+  annotations : "../dataset/training/annotations"
+  #the evaluation can be empty, in which case it will not be performed.
+  evaluation: "../dataset/eval/data"
+  evaluation_annotations: "../dataset/eval/annotations"
+  evaluation_output: "../dataset/eval/output"
+  # the inputs and outputs for the inference can be empty, in which case it will not be performed.
+  input: "../dataset/inputs"
+  output: "../dataset/outputs"
+model:
+   # The following path is needed to save the weights learned by the model during the training phase.
+  weights: "../dataset/weights.h5"
+  # The height and width of the image are required.
+  # If  datasets contain several images of different sizes, they will automatically be resized to the given size.
+  input_image_height : 360
+  input_image_width : 480
+  # Number of class to indentify
+  num_classes : 51
+  # Number of channels of which the image is composed (for example 3 for RGB)
+  channel : 3
+  epochs : 40
